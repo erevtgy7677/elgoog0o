@@ -1,0 +1,43 @@
+﻿{
+  "name": "demo",
+  "description": "Deploy demo.",
+  "keywords": ["d", "x"],
+  "env": {
+    "ProxySite": {
+      "description": "edu ",
+      "value": "mirror.umd.edu"
+    },
+
+    "Vless_UUID": {
+      "description": "uuid",
+      "value": "f8bfb621-6728-4a6c-ae69-2106cd3d7c8a"
+    },
+
+    "Vless_Path": {
+      "description": "vlPath",
+      "value": "/vl555"
+    },
+    "Vmess_UUID": {
+      "description": "uuid",
+      "value": "f8bfb621-6728-4a6c-ae69-2106cd3d7c8a"
+    },
+
+    "Vmess_Path": {
+      "description": "vmPath",
+      "value": "/vm666"
+    },
+    
+    "Share_Path": {
+      "description": "Share",
+      "value": "/random"
+    },
+
+    "VER": {
+       "description": "version",
+       "value": "latest"
+     }
+  },
+  "website": "",
+  "repository": "",
+  "stack": "container"
+ }
